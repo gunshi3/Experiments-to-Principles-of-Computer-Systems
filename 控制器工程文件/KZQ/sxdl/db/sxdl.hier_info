@@ -1,0 +1,19 @@
+|sxdl
+qd => Selector0.IN4
+qd => Selector1.IN1
+dp => process_1~1.IN1
+dp => process_1~0.IN1
+tj => Selector6.IN4
+tj => Selector5.IN4
+tj => Selector2.IN3
+tj => process_1~0.IN0
+tj => Selector6.IN2
+tj => Selector5.IN2
+tj => Selector0.IN1
+tj => process_1~1.IN0
+t1 <= process_1~2.DB_MAX_OUTPUT_PORT_TYPE
+t2 <= t2~0.DB_MAX_OUTPUT_PORT_TYPE
+t3 <= t3~0.DB_MAX_OUTPUT_PORT_TYPE
+t4 <= t4~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

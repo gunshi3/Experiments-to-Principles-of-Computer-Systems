@@ -1,0 +1,175 @@
+Version 9.0 Build 184 04/29/2009 Service Pack 1 SJ Web Edition
+11
+910
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+..|sxdl|
+..|rom|
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+sxdl
+# storage
+db|KZQ.(1).cnf
+db|KZQ.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|sxdl|sxdl.vhd
+eccce5aa7ef5791363a6312836c35f5
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+sxdl:inst9
+}
+# lmf
+c:|altera|90sp1|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+7474
+# storage
+db|KZQ.(2).cnf
+db|KZQ.(2).cnf
+# case_insensitive
+# source_file
+c:|altera|90sp1|quartus|libraries|others|maxplus2|7474.bdf
+f0d781b738e7134a9d686c0ea27f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+7474:inst1
+7474:inst2
+7474:inst3
+}
+# macro_sequence
+
+# end
+# entity
+74244
+# storage
+db|KZQ.(4).cnf
+db|KZQ.(4).cnf
+# case_insensitive
+# source_file
+c:|altera|90sp1|quartus|libraries|others|maxplus2|74244.bdf
+b991c4e54d71024b356407b6c66fc4
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74244:inst4
+}
+# macro_sequence
+
+# end
+# entity
+74273
+# storage
+db|KZQ.(5).cnf
+db|KZQ.(5).cnf
+# case_insensitive
+# source_file
+c:|altera|90sp1|quartus|libraries|others|maxplus2|74273.bdf
+43247217913d17ab51bbea92feb3e38
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74273:inst8
+74273:inst
+74273:inst7
+74273:inst6
+}
+# macro_sequence
+
+# end
+# entity
+KZQ
+# storage
+db|KZQ.(0).cnf
+db|KZQ.(0).cnf
+# case_insensitive
+# source_file
+..|sxdl|KZQ.bdf
+b08dbbf6be5298eefe5907e4d8b5c3c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+rom
+# storage
+db|KZQ.(3).cnf
+db|KZQ.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|rom|rom.vhd
+5012de56b88b8886c8774fe62f532adb
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+rom:inst5
+}
+# lmf
+c:|altera|90sp1|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# complete
+
